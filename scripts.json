@@ -1,0 +1,19 @@
+{
+    "$schema": "https://deno.land/x/denon/schema.json",
+    "scripts": {
+        "start": "deno run --allow-net --allow-env --allow-read --unstable --import-map=import_map.json src/server.ts",
+        "dev": "deno run --allow-net --allow-env --allow-read --allow-write --allow-run --unstable --import-map=import_map.json --no-check src/server.ts"
+    },
+    "watcher": {
+      "interval": 50,
+      "exts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "json",
+        "md"
+      ],
+      "match": ["deno.json", "src/**/*.ts", "src/**/*.tsx", "public/markdown/*.md"]
+    }
+}
