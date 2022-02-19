@@ -7,8 +7,6 @@ import {
   virtualSheet, 
   getStyleTag,
   tw,
-  css,
-  apply,
 } from "../deps.ts";
 import { isLiveReloadEnabled } from "../config.ts";
 import { Layout, State } from "./layout.tsx"
