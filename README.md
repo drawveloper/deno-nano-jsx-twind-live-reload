@@ -1,4 +1,4 @@
-# Nano JSX with Deno and twd
+# Nano JSX with Deno and twind 
 
 Deploy with Deno Deploy:
 
