@@ -13,13 +13,13 @@ This is the starter I wish I had two weeks ago. The simplest JSX setup you can u
 
 ### Getting started
 
+Install [denon](https://deno.land/x/denon@2.5.0)
+
 Create a `.env` file to enable live reload: 
 
 `echo "ENABLE_LIVE_RELOAD=true" > .env`
 
-`npm i`
-
-`npm start`
+`denon dev` 
 
 ### Note about JSX pragma
 
